@@ -1,0 +1,59 @@
+* {
+        background-color: black;
+      }
+      .great-vibes-regular {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+      .press-start-2p-regular {
+        font-family: "Press Start 2P", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        color: aliceblue;
+      }
+      .action{
+        border: 1px solid white;
+        padding: 12px 32px;
+        color: white;
+        width: fit-content;
+        border-radius: 32px;
+        height: fit-content;
+        margin-top: 24px;
+      }
+      body{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: space-between;
+      }
+      .header{
+        display: flex;
+        flex-direction: column;
+        height: 29%;
+        align-items: center;
+        justify-content: center;
+      }
+      .cubs{
+          display: flex;
+        flex-direction: column;
+        height: 50%;
+        align-items: center;
+        justify-content: center;
+      }
+      button{
+        width: 200px;
+        height: 200px;
+        border: 1px solid white;
+
+      }
+      .footer{
+         display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 10%;
+        justify-content: center;
+      }
+      .btn{
+        border-radius: 12px;
+      }
